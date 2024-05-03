@@ -1,7 +1,7 @@
 # Configure the Identity resources settings
 locals {
   configure_identity_resources = {
-    settings = {
+/*     settings = {
       identity = {
         enabled = true
         parameters = {
@@ -16,6 +16,6 @@ locals {
           enable_deploy_vm_backup          = true
         }
       }
-    }
+    } */
   }
 }
